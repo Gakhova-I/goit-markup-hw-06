@@ -520,6 +520,9 @@ ol {
   }
 }
 @media screen and (min-width: 1158px) {
+  .box-portfolio {
+    margin: 0 auto;
+  }
   .box-portfolio-text {
     padding: 32px 16px;
   }
