@@ -343,14 +343,15 @@ address {
   column-gap: 24px;
 }
 .portfolio-item {
+  wid.portfolio-item:hover,
+  .portfolio-item:focus {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+      0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  }
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-item:hover,
-.portfolio-item:focus {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
+
 .overlay-box {
   position: relative;
   overflow: hidden;
@@ -393,10 +394,14 @@ address {
 }
 
 /*-----------FOOTER--------------------*/
+.box-footer {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+}
 .page-footer {
   padding: 100px 0;
   background-color: #2e2f42;
-
   margin: 0 auto;
 }
 .logo-footer-box {
@@ -425,11 +430,6 @@ address {
 }
 .accent-footer {
   color: #f4f4fd;
-}
-.box-footer {
-  display: flex;
-  align-items: baseline;
-  margin-right: 120px;
 }
 .footer-media-text {
   font-weight: 500;
@@ -595,7 +595,6 @@ address {
   font-size: 12px;
   letter-spacing: 0.04em;
   color: #8e8f99;
-
   margin-bottom: 4px;
 }
 .modal-box-for-svg {
