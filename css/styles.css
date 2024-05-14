@@ -210,7 +210,12 @@ ol {
 }
 @media screen and (min-resolution: 192dpi) {
   .page-hero {
-    background-image: url(../images/office/mobile-office@2x-min.jpg);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/office/mobile-office@2x-min.jpg);
   }
 }
 
@@ -290,7 +295,12 @@ ol {
   .page-hero {
     max-width: 768px;
     min-height: 436px;
-    background-image: url(../images/office/tablet-office-min.jpg);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/office/tablet-office-min.jpg);
   }
 
   .skills-list-title {
@@ -318,7 +328,12 @@ ol {
 }
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .page-hero {
-    background-image: url(../images/office/tablet-office@2x-min.jpg);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/office/tablet-office@2x-min.jpg);
   }
 }
 
@@ -326,7 +341,12 @@ ol {
   .page-hero {
     max-width: 1440px;
     min-height: 600px;
-    background-image: url(../images/office/desctop-office-min.jpg);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/office/desctop-office-min.jpg);
   }
   .icons-box {
     display: flex;
@@ -353,7 +373,12 @@ ol {
 }
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .page-hero {
-    background-image: url(../images/office/desctop-office@2x-min.jpg);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/office/desctop-office@2x-min.jpg);
   }
 }
 /*=========TEAM=======*/
