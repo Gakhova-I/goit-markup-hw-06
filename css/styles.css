@@ -765,7 +765,7 @@ ol {
 }
 @media screen and (min-width: 1158px) {
   .page-footer {
-    padding: 156px 15px;
+    padding: 100px 0px;
   }
   .box-footer {
     flex-wrap: nowrap;
@@ -1101,7 +1101,7 @@ ol {
 }
 
 .contact-item-mobile-menu {
-  padding-bottom: 24px;
+  margin-bottom: 24px;
 }
 .mobile-menu-link.current {
   color: #404bbf;
